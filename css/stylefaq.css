@@ -1,0 +1,310 @@
+
+
+*{
+padding:0;
+margin:0;
+}
+
+body{ 
+/*background-image:url(../images/logo.jpg);*don't forget to jump folders when you use a image in the images folder!!/
+/*background:#ddd;*/
+font-size:100%;
+}
+
+div#wrapper{
+width:940px;
+margin:0 auto 20px auto;
+}
+
+div.nav1,div.nav2{
+line-height:30px;
+width:300px;
+height:50px;
+margin-top:20px;
+}
+
+
+div.nav1
+{
+float:left;	
+}
+
+
+
+div.nav2
+{
+float:right;
+}
+
+
+div.nav1 li, div.nav2 li{
+float: left;
+list-style-type:none;
+width: 33%;
+text-align: center;
+font-family:Sans-serif;
+font-size: .9em;
+}
+
+
+
+div.nav1 a,div.nav2 a{
+text-decoration:none;
+color:gray;
+display: block;
+}
+
+div.nav1 a:hover,div.nav2 a:hover{
+background:#000;
+color:#fff;
+}
+
+
+
+header{
+padding: 10px 0 0 0;
+clear:both;
+}
+
+@font-face{
+font-family: AlexBrush-Regular;
+src: url('AlexBrush-Regular.ttf');	
+}
+
+header p.center1{
+text-align:center;
+margin-top:10px;
+font-size:6.0em;
+font-family:AlexBrush-Regular,Sans-serif, helbetica ;
+color:black;
+}
+
+header p.center2{
+text-align:center;
+font-size:1.0em;
+font-style: italic;
+color:black;
+}
+
+
+hr{
+margin-top:20px;
+padding:0 5px 0 5px;
+}
+
+
+
+
+img#faq{
+width: 340px;
+margin: 20px 300px 20px 300px;/*center the image*/
+}
+
+
+
+main{
+width:700px;
+height: 700px;
+float: left;
+background:white;
+margin-bottom:30px;
+}
+
+
+aside{
+padding-top:12px;
+width:240px;
+float:right;
+
+}
+
+
+div#container{
+clear:both;/*make the container separate with  the paragraph above */
+margin-bottom:40px;
+padding-top:20px;
+}
+
+
+
+
+footer{
+clear:both;
+height:50px;
+margin-top:20px;
+line-height: 50px;
+}
+
+div.box1
+{
+clear:both;
+background:yellow;
+width: 450px;
+margin: 0 auto;
+}
+
+
+
+footer li{
+float: left;
+list-style-type:none;
+margin-right: 30px;
+color: #666;
+}
+
+footer a{
+color: #666;
+}
+
+
+img{
+max-width:100%;
+}
+
+
+h2{
+font-size: 2em;/*1em = 16px*/
+line-height:1.15;
+margin-bottom:15px;
+color:#292F55;
+font-weight:200;
+
+}
+
+h3{
+margin-top:18px;	
+font-size: .9em;
+font-family: verdana, helvetica, arial;
+color:#292F55;
+}
+
+p{
+font-size: .9em;
+line-height:1.5;
+font-family: verdana, helvetica, arial;
+color:#292F55;
+margin-bottom: 5px;
+}
+
+
+div#banner{
+margin:10px 0 20px 0 ;
+height: 50px;
+}
+
+div.box2
+{
+width: 180px;
+margin: 0 auto;
+}
+
+
+
+img#logo1,img#logo2,img#logo3,img#logo4{
+width: 20%;
+margin-left:5px;
+}
+
+
+p.valid
+{
+color: #666;
+}
+
+a{
+color: #666;
+}
+
+div.box3
+{
+width: 500px;
+margin: 160px auto;
+}
+
+p.thx
+{
+font-size: 1.4em;
+color: #666;
+}
+
+
+
+
+
+div#container1 {
+width: 920px;
+height:560px;
+background:orange;
+margin:20px auto 10px auto;
+border-top:1px dotted #666;
+padding-top:20px;
+float: left;
+}
+
+div.containerBox1
+{
+width: 610px;
+height: 300px;  
+float:left;
+margin:0 10px 10px 0;
+background:gray;
+border-top:1px solid red;
+}
+
+div.containerBox2
+{
+float:right;
+width: 300px;
+height: 560px;  
+background:gray;
+border-top:1px solid red;
+}
+
+div.containerBox3
+{
+float:left;
+width: 300px;
+height: 250px;
+margin-right:10px;
+background:gray;
+border-top:1px solid red;
+}
+
+div.containerBox4
+{
+float:left;
+width: 300px;
+height: 250px;
+margin-right:10px;
+background:gray;
+border-top:1px solid red;
+}
+
+div#container2 {
+width:920px;
+height:300px;
+background:green;
+clear:both;/*make the container separate with  the paragraph above */
+margin-top:30px;
+margin-bottom:10px ;
+border-top:1px dotted #666;
+}
+div.containerBox5
+{
+float:left;
+width: 455px;
+height: 280px;
+margin-right:10px;
+background:gray;
+border-top:1px solid red;
+}
+div.containerBox6
+{
+float:right;
+width: 455px;
+height: 280px;
+background:gray;
+border-top:1px solid red;
+}
+
+

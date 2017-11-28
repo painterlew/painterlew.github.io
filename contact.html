@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>hw6 contact page</title>
+
+<!--Remy Sharp Shim --> 
+<!--[if lte IE 9]> 
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" >
+</script> 
+<![endif]-->
+<link href="css/styleContact.css" type="text/css" rel="stylesheet">
+</head>
+
+
+
+<body>
+<div id="wrapper">
+
+<div class="nav1">
+<ul>
+<li><a href="index.html"> HOME </a></li>
+<li><a href="information.html"> INFORMATION </a></li>
+<li><a href="gallery.html"> GALLERY </a></li>
+</ul>
+</div><!--end nav1-->
+
+
+<div class="nav2">
+<ul>
+<li><a href="about.html"> ABOUT </a></li>
+<li><a href="contact.html"> CONTACT </a></li>
+<li><a href="faq.html"> FAQ </a></li>
+</ul>
+</div><!--end nav2-->
+
+
+
+<header>
+<p class="center1">GirlFriend</p>
+<p class="center2">PHOTOGRAPH STUDIO<p>
+</header>
+
+
+<hr>
+
+
+<main>
+
+<form action="formhandle.php"   method="post">
+
+<fieldset>
+
+<legend>CONTACT</legend>
+
+<p>
+Can’t wait to hear from you! Fill the form below and you’ll hear from me in a blink.
+</p>
+
+
+<label>Name</label>
+<input type="text" name="name">
+
+<label>Email</label>
+<input type="email" name ="email">
+
+<label>In Seattle</label>
+
+<ul>
+<li><input type="radio" name ="local" value="yes">Yes</li>
+<li><input type="radio" name ="local" value="no">No</li>
+</ul>
+
+<label>How did you hear about Girlfriend Photography?</label>
+<ul>
+<li><input type="checkbox" name ="know[]" value="wedding Wire">Wedding Wire</li>
+<li><input type="checkbox" name ="know[]" value="yelp">Yelp</li>
+<li><input type="checkbox" name ="know[]" value="google Research">Google Research</li>
+<li><input type="checkbox" name ="know[]" value="referral by someone">Referral by someone</li>
+</ul>
+
+<label>MESSAGE</label>
+<textarea name="comments" rows="10" >  </textarea>
+
+<input type="submit" value="Sent it!">
+
+</fieldset>
+
+</form>
+</main><!--end of main-->
+
+
+<aside>
+<img id="contact" src="images/contact.jpg" alt = "contact">
+</aside>
+
+
+<hr>
+<footer>
+<div class="box1">
+<ul>
+<li>Copyright 2017</li>
+<li>All Right Reserver</li>
+<li><a href="../index.html">Web Desig by Chang</a></li>
+</ul>
+</div><!--end box1-->
+</footer>
+
+
+
+<div id = "banner">
+<div class="box2">
+<a href=""><img id="logo1" src="images/facebookLogo.png" alt = "facebookLogo">  </a>
+<a href=""><img id="logo2" src="images/twitterLoge.png" alt = "twitterLoge">    </a>
+<a href=""><img id="logo3" src="images/instagramLogo.jpg" alt = "instagramLogo"></a>
+<a href=""><img id="logo4" src="images/youTubeLogo.png" alt = "youTubeLogo">    </a>
+</div><!--end box2-->
+</div><!--end banner-->
+
+
+<p class="valid">
+<a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F~cliu%2Fit111%2Fhw6%2Fcontact.html" target="_blank"> Valid </a></p>
+</div><!--end wrapper-->
+
+</body>
+</html>

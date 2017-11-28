@@ -9,7 +9,7 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" >
 </script> 
 <![endif]-->
-<link href="css/styleContact.css" type="text/css" rel="stylesheet">
+<link href="../css/styleContact.css" type="text/css" rel="stylesheet">
 </head>
 
 
@@ -19,7 +19,7 @@
 
 <div class="nav1">
 <ul>
-<li><a href="index.html"> HOME </a></li>
+<li><a href="../index.html"> HOME </a></li>
 <li><a href="information.html"> INFORMATION </a></li>
 <li><a href="gallery.html"> GALLERY </a></li>
 </ul>
@@ -38,7 +38,7 @@
 
 <header>
 <p class="center1">GirlFriend</p>
-<p class="center2">PHOTOGRAPH STUDIO<p>
+<p class="center2">PHOTOGRAPHY STUDIO<p>
 </header>
 
 
@@ -50,27 +50,34 @@
 <h3>My name is XXX.</h3>
 <p> This is a make up photography studio webside</p>
 <p>This "about" information copy from 
-<a href=" https://northseattle.edu/about-north"> https://northseattle.edu/about-north</a> </p>
+<a href=" https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html"> https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html</a> </p>
 
-<p>Established in 1970, North Seattle College provides learning opportunities for a diverse group of over 14,000 students each year.
- North is the starting point for many students who transfer to top universities across the country. Strong academic preparation and 
- advising services, small classes, an innovative integrated studies program, broad e-learning options and a variety of partnerships 
- with four-year schools contribute to student success. The College also offers three Bachelor of Applied Science degrees -  in Application
- Development,  in Early Childhood Education and in International Business - and all-in-the-evening Associate of Arts and Associate in 
- Business degree programs. </p>
+<p>Hash table based implementation of the Map interface. This implementation provides all of the optional map operations, and permits null values and 
+the null key. (The HashMap class is roughly equivalent to Hashtable, except that it is unsynchronized and permits nulls.) 
+This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time. </p>
 
-<h3>Convenient Location</h3>
+<p>This implementation provides constant-time performance for the basic operations (get and put), assuming the hash function disperses the elements
+ properly among the buckets. Iteration over collection views requires time proportional to the "capacity" of the HashMap instance 
+ (the number of buckets) plus its size (the number of key-value mappings). Thus, it's very important not to set the initial capacity too high 
+ (or the load factor too low) if iteration performance is important.</p>
 
-<p>North is located in the Northgate area of Seattle and is conveniently located near the two major north-south highways, Interstate 5 and
- Highway 99, and is just a short drive to downtown and the University of Washington. Largely residential, the campus neighborhood is near
- a large shopping district and the city’s popular Greenlake Park. The campus includes environmentally sensitive wetlands which have 
- inspired a college-wide commitment to sustainability. </p>
+
+<h3>Note that this implementation is not synchronized.</h3>
+
+<p>If multiple threads access a hash map concurrently, and at least one of the threads modifies the map structurally, it must be synchronized 
+externally. (A structural modification is any operation that adds or deletes one or more mappings; merely changing the value associated with 
+a key that an instance already contains is not a structural modification.) This is typically accomplished by synchronizing on some object 
+that naturally encapsulates the map. If no such object exists, the map should be "wrapped" using the Collections.synchronizedMap method. 
+This is best done at creation time, to prevent accidental unsynchronized access to the map: </p>
+
+<p>Map m = Collections.synchronizedMap(new HashMap(...));</p>
+
 </div><!--end mainBox-->
 </main><!--end of mian-->
 
 
 <aside>
-<img id="about" src="images/about.png" alt = "about">
+<img id="about" src="../images/about.png" alt = "about">
 </aside>
 
 
@@ -80,7 +87,7 @@
 <ul>
 <li>Copyright 2017</li>
 <li>All Right Reserver</li>
-<li><a href="script/personalweb/index.html">Web Desig by Chang</a></li>
+<li><a href="personalweb/index.html">Web Desig by Chang</a></li>
 </ul>
 </div><!--end box1-->
 </footer>
@@ -89,10 +96,10 @@
 
 <div id = "banner">
 <div class="box2">
-<a href=""><img id="logo1" src="images/facebookLogo.png" alt = "facebookLogo">  </a>
-<a href=""><img id="logo2" src="images/twitterLoge.png" alt = "twitterLoge">    </a>
-<a href=""><img id="logo3" src="images/instagramLogo.jpg" alt = "instagramLogo"></a>
-<a href=""><img id="logo4" src="images/youTubeLogo.png" alt = "youTubeLogo">    </a>
+<a href=""><img id="logo1" src="../images/facebookLogo.png" alt = "facebookLogo">  </a>
+<a href=""><img id="logo2" src="../images/twitterLoge.png" alt = "twitterLoge">    </a>
+<a href=""><img id="logo3" src="../images/instagramLogo.jpg" alt = "instagramLogo"></a>
+<a href=""><img id="logo4" src="../images/youTubeLogo.png" alt = "youTubeLogo">    </a>
 </div><!--end box2-->
 </div><!--end banner-->
 
